@@ -1,0 +1,102 @@
+button{
+    background-color: rgb(158, 234, 116);
+    border-radius: 50%;
+    font-size: xx-large;
+    margin: 20px;
+    cursor: pointer;
+}
+.right{
+    position: absolute;
+    right: 10px;
+}
+button:hover{   
+    border-radius: 0; 
+}
+pre,.main{
+    font-size: 18px;
+    color: rgb(18, 7, 182);
+}
+p{
+    color: red;
+}
+@keyframes girgit {
+    0%   {color:red;}
+    5%  {color:orange;}
+    10%  {color:yellow;}
+    15%  {color:green;}
+    20%  {color:blue;}
+    25%  {color:indigo;}
+    30%  {color:violet;}
+    35%   {color:red;}
+    40%  {color:orange;}
+    45%  {color:yellow;}
+    50%  {color:green;}
+    55%  {color:blue;}
+    60%  {color:indigo;}
+    65%  {color:violet;}
+    70%   {color:red;}
+    75%  {color:orange;}
+    80%  {color:yellow;}
+    85%  {color:green;}
+    90%  {color:blue;}
+    95%  {color:indigo;}
+    100%  {color:violet;}
+}
+h1{
+    color: rgb(252, 36, 2);
+    font-size: xx-large;
+    animation: girgit 100s ease 1s;
+}
+h1:hover{
+    color: #1307f1;
+}
+img{
+    width: 250px;
+    border: 3px solid rgb(248, 4, 4);
+}
+summary{
+    margin-bottom: 10px;
+    font-size: 23px;
+    color: #000;
+    text-align: center;
+    background-color: chartreuse;
+    border: 2px solid black;
+    border-radius: 30px;
+    width: 150px;
+    box-shadow: 0px 5px 0px rgb(63, 68, 118);
+    cursor: pointer;
+}
+summary:hover{
+    color:#1307f1;
+    font-weight: bolder;
+}
+summary:active,button:active{
+    transform: scale(0.95); 
+}
+i{
+    font-weight: bold;
+}
+a:active{
+    opacity: 0;
+}
+summary::marker {
+    content: "";
+}
+audio{
+    border: 2px solid;
+    border-radius: 30px;
+}
+iframe,video{
+    width:350px;
+    height: 200px;
+    border:3px solid rgb(24, 190, 202);
+    border-radius: 10px;
+}
+body{
+    border: 2px solid;
+    border-radius: 10px;
+
+}
+i{
+    color: red;
+}
